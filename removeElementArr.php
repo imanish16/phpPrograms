@@ -15,8 +15,10 @@ array_pop($arr);
   // Declaring indexed array
   $ind_arr = ["Geeks","For","Geeks"];
  
+  print_r($ind_arr);
+
   // Deleting element and index 1
-  array_splice($ind_arr,1,1);
+  array_splice($ind_arr,1,1,[5,6]);
  
   // Printing array after deleting the element
   print_r($ind_arr);

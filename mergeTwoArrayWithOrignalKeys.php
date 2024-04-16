@@ -16,6 +16,6 @@ $array1 = array(
          ); 
   
   $merged_array = $array1 + $array2; 
-//   $merged_array = array_replace($array1,$array2); 
-  var_dump ($merged_array); 
+  $merged_array = array_replace($array1,$array2); 
+  print_r($merged_array); 
 ?>

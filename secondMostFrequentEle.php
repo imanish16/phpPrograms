@@ -4,11 +4,12 @@
       
     // new array containing frequency of values of $arr 
     $arr_freq = array_count_values($arr);     
+    print_r($arr_freq);
     
     // arranging the new $arr_freq in decreasing order  
     // of occurrences 
     arsort($arr_freq); 
-    
+    print_r($arr_freq);
     // $new_arr containing the keys of sorted array 
     $new_arr = array_keys($arr_freq); 
        

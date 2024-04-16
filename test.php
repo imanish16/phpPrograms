@@ -12,4 +12,5 @@ class Singleton {
 	}
 }
  $singleton = new Singleton();
+ print_r(Singleton::getInstance());
 ?>
